@@ -1,0 +1,27 @@
+{
+  "name": "netlify-function",
+  "version": "1.0.0",
+  "description": "Minimal test of Netlify Functions",
+  "main": "test.js",
+  "scripts": {
+    "start": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertux/netlify-function.git"
+  },
+  "keywords": [
+    "netlify"
+  ],
+  "author": "Bertrand Juglas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertux/netlify-function/issues"
+  },
+  "homepage": "https://github.com/bertux/netlify-function#readme",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.14"
+  }
+}
